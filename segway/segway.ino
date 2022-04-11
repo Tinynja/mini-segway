@@ -11,10 +11,10 @@
 const double logging_freq = 256; // Hz (Arduino Uno has 1KB of EEPROM, and we store 4 bytes at a time)
 
 // PID parameters (Calculated values: kp=0.35, ki=0.001, kd=95) */
-const double command_angle = -0.4;
+const double command_angle = -2.7;
 const uint8_t derivative_dp = 4; // Number of datapoints for the derivative moving average
 const double integral_max = 2;
-const double kp = 45;
+const double kp = 40;
 const double ki = 300;
 const double kd = 0.4;
 
